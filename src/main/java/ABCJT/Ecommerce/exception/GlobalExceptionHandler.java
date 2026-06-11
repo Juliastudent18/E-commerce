@@ -29,6 +29,14 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(erros);
     }
 
+    // Erro 404 - Recurso não encontrado
+    @ExceptionHandler(org.springframework.web.servlet.resource.NoResourceFoundException.class)
+    public ResponseEntity<Map<String, String>> handleNoResource(org.springframework.web.servlet.resource.NoResourceFoundException ex) {
+        Map<String, String> erro = new HashMap<>();
+        erro.put("erro", "Recurso não encontrado: " + ex.getResourcePath());
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(erro);
+    }
+
     // Erro 500 - Erro genérico
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, String>> handleErroGenerico(Exception ex) {
