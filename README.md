@@ -132,7 +132,7 @@ GET /produtos/categoria/{categoria}
 ### Clonar o projeto
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone (https://github.com/Juliastudent18/E-commerce.git)
 ```
 
 Entrar na pasta:
