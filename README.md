@@ -255,12 +255,11 @@ https://SEU-PROJETO.onrender.com/swagger-ui/index.html
 
 ## Integrantes do Grupo
 
-|--------|--------|
-| Integrante 1 | Ana Luisa |
-| Integrante 2 | Beatriz Gonçalves |
-| Integrante 3 | Camila Santos |
-| Integrante 4 | Julia Souza |
-| Integrante 5 | Thiago Lima |
+- Ana Luisa 
+- Beatriz Gonçalves 
+- Camila Santos 
+- Julia Souza 
+- Thiago Lima
 
 ---
 
