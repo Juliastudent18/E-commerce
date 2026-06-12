@@ -186,16 +186,11 @@ DB_PASSWORD
 ## Documentação da API
 
 Swagger UI:
-
-```text
-http://localhost:8080/swagger-ui/index.html
-```
+https://e-commerce-api-ms3m.onrender.com/swagger-ui/index.html
 
 Após deploy:
 
-```text
-https://SEU-PROJETO.onrender.com/swagger-ui/index.html
-```
+https://dashboard.render.com/web/srv-d8lich4vikkc73bv2hmg/deploys/dep-d8m0h937uimc73ehvspg?r=2026-06-12%4013%3A23%3A52%7E2026-06-12%4013%3A27%3A55
 
 ---
 
@@ -239,19 +234,11 @@ PostgreSQL
 4. Variáveis de ambiente cadastradas.
 5. Build automático realizado pelo Render.
 
-### Link da API
 
-```text
-https://SEU-PROJETO.onrender.com
-```
 
 ### Swagger Produção
 
-```text
-https://SEU-PROJETO.onrender.com/swagger-ui/index.html
-```
-
----
+https://e-commerce-api-ms3m.onrender.com/swagger-ui/index.html
 
 ## Integrantes do Grupo
 
